@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма вводу даних</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 50px;
+        }
+        .input-group {
+            margin-bottom: 20px;
+        }
+        .input-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .input-group input {
+            padding: 8px;
+            width: 250px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        .content {
+            margin-top: 50px;
+        }
+        .content p {
+            margin-bottom: 20px;
+        }
+        .content img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="input-group">
+            <label for="phone">Ваш номер телефону:</label>
+            <input type="text" id="phone" name="phone" placeholder="Введіть номер телефону">
+        </div>
+        <div class="input-group">
+            <label for="product">Обраний товар:</label>
+            <input type="text" id="product" name="product" placeholder="Введіть назву товару">
+        </div>
+        <div class="content">
+            <p>Дякуємо, що обрали наш магазин. Вдалих покупок!</p>
+            <img src="img/sps.png" alt="Зображення">
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магазин техніки</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: pink;
+            padding: 10px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+            color: white;
+        }
+        frameset {
+            border: none; /* Видалити рамку між фреймами */
+        }
+        .navigation {
+            background-color: lightgray;
+            padding: 10px;
+        }
+        .navigation ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .navigation ul li {
+            margin-bottom: 10px;
+        }
+        .navigation ul li a {
+            text-decoration: none;
+            color: black;
+        }
+        .navigation ul li a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<frameset cols="20%, 80%">
+    <frame src="navigation.html" name="leftFrame">
+    <frame src="default.html" name="rightFrame">
+</frameset>
+</html>
